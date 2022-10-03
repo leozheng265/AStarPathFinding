@@ -15,7 +15,7 @@ $$
 ### Division Cost Function:
 
 $$
-Cost =\frac{h1}{h0 + 1}
+Cost =\frac{h_1}{h_0 + 1}
 $$
 
 ## Running Instructions
