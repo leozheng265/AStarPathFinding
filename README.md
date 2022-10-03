@@ -29,7 +29,7 @@ $$
 - -cost (string) - cost function. Values [‘exp’, ‘div’] accepted. Default ‘exp’.
 - -AI (string) - Name of AIModule to use. Values [‘AStarExp’, ‘AStarDiv’, ‘Dijkstra’] accepted.
 
-###Example Command:
+### Example Command:
 
 ```bash
 python3 Main.py -seed 0 -cost exp -AI AStarExp
