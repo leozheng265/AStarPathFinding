@@ -9,7 +9,7 @@ This project utilizes the A* framework to find the optimal path between two poin
 ### Exponential Cost Function:
 
 $$
-Cost = 2^{(h1-h0)}
+Cost = 2^{(h_1-h_0)}
 $$
 
 ### Division Cost Function:
