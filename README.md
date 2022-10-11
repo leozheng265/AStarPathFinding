@@ -34,3 +34,7 @@ $$
 ```bash
 python3 Main.py -seed 0 -cost exp -AI AStarExp
 ```
+
+Demo video:
+
+https://youtu.be/O7ofCwT1OOk
