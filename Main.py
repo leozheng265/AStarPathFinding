@@ -1,6 +1,6 @@
 import argparse
 from time import time
-from AIModule import StupidAI, Djikstras, AStarExp, AStarDiv, AStarMSH
+from AIModule import StupidAI, Djikstras, AStarExp, AStarDiv
 from Map import Map
 
 parser = argparse.ArgumentParser(description='Run programming assignment 1')
@@ -24,7 +24,7 @@ cost = args.cost
 ai = args.AI
 filename = args.filename
 
-agents = {'AStarExp': AStarExp, 'AStarDiv': AStarDiv, 'AStarMSH': AStarMSH, 'Djikstra': Djikstras, 'StupidAI':StupidAI}
+agents = {'AStarExp': AStarExp, 'AStarDiv': AStarDiv,'Djikstra': Djikstras, 'StupidAI':StupidAI}
 
 m = Map(w,l, seed=seed, filename=filename, cost_function=cost, start=start, goal=goal)
 alg = agents[ai]()
